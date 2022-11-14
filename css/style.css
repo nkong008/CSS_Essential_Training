@@ -8,14 +8,17 @@ width: 300px;
 }
 
 header {
+    /*inheriting style to apply to all the elements within the header chapter 2*/
     /*css syntax and terminology, value and units section 2 of css course*/
     /*use rgb color section 2*/
      /*change color opacity section 2*/
+     /*adding colors chap 2*/
     background-color: rgb(145, 161, 175,0.60);
     width: 100%;
     height: 50%;
     padding: 10%;
     align-items: center;
+     /*adding colors chap 2*/
     color: rgb(255, 255, 255);
    
 }
@@ -47,35 +50,48 @@ section {
 }
 
 body {
+    /*inheriting style to apply to all the elements within the header chapter 2*/
     background-image: url("../img/crystal.jpg");
     max-width: 100%;
     height: auto;
     font-size: 20px;
+     /*adding colors chap 2*/
     color: white;
   
 }
 
 footer {
+    /*inheriting style to apply to all the elements within the header chapter 2*/
     padding: 10%;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     /*adding colors chap 2*/
     color: white;
     text-decoration: none;
+    /*adding colors chap 2*/
     background-color: rgb(145, 161, 175, 0.60);
 }
 
 .poster{
     font-size: 30px;
+    /*adding colors chap 2*/
    background-color: rgb(145, 161, 175, 0.5);
    width: 40%;
+    /*adding colors chap 2*/
    color: rgb(80, 98, 128);
 }
 
 .feat-proj {
     font-size: 30px;
+    /*adding colors chap 2*/
     background-color: rgba(145, 161, 175, 0.5);
    align-items: center;
    display: flex;
    width: 40%;
+   /*adding colors chap 2*/
    color: rgb(80, 98, 128);
+}
+/*styling links chapter 2 */
+a {
+    color:rgb(64, 81, 97)
 }
