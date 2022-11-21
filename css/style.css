@@ -14,37 +14,58 @@ header {
      /*change color opacity section 2*/
      /*adding colors chap 2*/
     background-color: rgb(145, 161, 175,0.60);
+    /*using relative <length> units chap 3 */
     width: 100%;
     height: 50%;
-    padding: 10%;
+    /*padding, ,margin, and border chapter 3*/
+    padding: 60px 0;
     align-items: center;
      /*adding colors chap 2*/
     color: rgb(255, 255, 255);
+    margin: 0 auto; 
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
    
 }
 
 /*using a id selector*/
 #p1 {
     /*type selector section 2*/
+    /*padding, ,margin, and border chapter 3*/
     padding: none;
+    /*using relative <length> units chap 3 */
+    /*Typography for the web chapter 4*/
     font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    /*changing the font-family chap 4*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /*adding line height which creates space in between the words chap 4*/
+    line-height: 1.5 ;
     
 }
 
-/*using class selector*/
 .p1 {
     /*type selector section 2*/
+    /*padding, ,margin, and border chapter 3*/
     padding: none;
+    /*using relative <length> units chap 3 */
     font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    /*changing the font-family chap 4*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /*adding line height chap 4*/
+    line-height: 1.5 ;
 }
 
 #products {
+    /*using relative <length> units chap 3 */
+     /*using box properties chap 3 */
+     /*padding, ,margin, and border chapter 3*/
     padding: 10%;
 }
 
 section {
+    /*using relative <length> units chap 3 */
+     /*using box properties chap 3 */
+     /*padding, ,margin, and border chapter 3*/
     padding: 10%;
     
 }
@@ -57,19 +78,24 @@ body {
     font-size: 20px;
      /*adding colors chap 2*/
     color: white;
-  
+    margin: 0%;
 }
 
 footer {
     /*inheriting style to apply to all the elements within the header chapter 2*/
+    /*using relative <length> units chap 3 */
+     /*using box properties chap 3 */
+     /*padding, ,margin, and border chapter 3*/
     padding: 10%;
     font-size: 20px;
+    /*changing the font-family chap 4*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
      /*adding colors chap 2*/
     color: white;
     text-decoration: none;
     /*adding colors chap 2*/
     background-color: rgb(145, 161, 175, 0.60);
+   
 }
 
 .poster{
@@ -78,10 +104,14 @@ footer {
    background-color: rgb(145, 161, 175, 0.5);
    width: 40%;
     /*adding colors chap 2*/
-   color: rgb(80, 98, 128);
+   color: rgb(255, 255, 255);
+   font-family: 'Yeseva One', cursive;
+   text-align: center;
+  padding: 0%;
 }
 
 .feat-proj {
+    /*using relative <length> units px chap 3 */
     font-size: 30px;
     /*adding colors chap 2*/
     background-color: rgba(145, 161, 175, 0.5);
@@ -89,9 +119,93 @@ footer {
    display: flex;
    width: 40%;
    /*adding colors chap 2*/
-   color: rgb(80, 98, 128);
+   color: rgb(255, 255, 255);
+   padding: 0px;
+   /*font-weight chapter 4*/
+   font-weight: extra-bold;
+   font-family: 'Yeseva One', cursive;
+   text-align: center;
 }
+
 /*styling links chapter 2 */
 a {
-    color:rgb(64, 81, 97)
+    color:rgb(255, 255, 255);
+    /*the box properties syntax and usage chapter 3*/
+    text-decoration: none;
+
+}
+
+/*styling links chapter 2 */
+a:hover {
+    /*the box properties syntax and usage chapter 3*/
+    /*text-decoration chapter 4 */
+    text-decoration: none;
+}
+
+ .education {
+    /*using relative <length> units chap 3 */
+    /*font-size property*/
+    font-size: 30px;
+    /*adding colors chap 2*/
+    background-color: rgba(145, 161, 175, 0.5);
+   align-items: center;
+   display: flex;
+   width: 40%;
+   /*adding colors chap 2*/
+   color: white;
+    /*using google fonts chapter 4*/
+   font-family: 'Yeseva One', cursive;
+ }
+
+ .header-info {
+   
+    width: 50%;
+    margin: 0 auto;
+ }
+
+.education-section {
+    background-color: rgb(201, 197, 201);
+}
+.school{
+     /*using google fonts chapter 4*/
+    font-family: 'Yeseva One', cursive;
+}
+
+.contact1 {
+    /*using google fonts chapter 4*/
+    font-family: 'Yeseva One', cursive;
+}
+
+.paragraphs{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    /*text-align aligns the text to the center chapter 4*/
+    text-align: center;
+    line-height: 1.5 ;
+    background-color: rgb(145, 161, 175, 0.5);
+    /*project float and box model fix. Hides the extra space chapter 5 */
+    overflow: hidden;
+    margin-right: 30px;
+    
+}
+
+.ari {
+    align-items: center;
+    float: left;
+    /*float property chapter 5*/
+    margin: 10px ;
+}
+
+.name {
+    font-size: 60px;
+}
+
+
+.project-item {
+    overflow: hidden;
+}
+
+.c {
+    padding-left: 50%;
 }
